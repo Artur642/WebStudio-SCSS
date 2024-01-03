@@ -638,6 +638,9 @@ body {
 .modal-form-field {
     margin-top: 28px;
 }
+.modal-form-field:hover{
+    color: var(--background-button-color);
+}
 
 .comment {
     border-radius: 4px;
@@ -651,6 +654,13 @@ body {
     letter-spacing: 0.12px;
 }
 
+.modal-form-policy-checkbox {
+    width: 16px;
+    height: 15px;
+    flex-shrink: 0;
+    color: #212121;
+}
+
 .modal-form-label {
     color: #757575;
     font-family: 'Roboto';
@@ -660,6 +670,7 @@ body {
     line-height: normal;
     letter-spacing: 0.12px;
     text-align: center;
+    display: flex;
 }
 
 .modal-form-title {
@@ -753,11 +764,13 @@ body {
     bottom: -32px;
     transition: var(--background-button-color) 5000ms;
 }
-.block-wrap{
+
+.block-wrap {
     position: relative;
     overflow: hidden;
 }
-.overley{
+
+.overley {
     position: absolute;
     top: 0;
     left: 0;
@@ -772,7 +785,8 @@ body {
     transition: transform 250ms linear, opasity 250ms linear;
     opacity: 0;
 }
-.block-link:hover .overley{
+
+.block-link:hover .overley {
     transform: translateY(0);
     opacity: 1;
 }
