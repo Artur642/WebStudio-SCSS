@@ -7,6 +7,7 @@
     --background-team-color: #f5f4fa;
     --logo-color: #000;
     --secondary-background-color: #2f3034;
+    --background-color-after: #196baf;
 }
 
 .header-wrapper {
@@ -78,6 +79,7 @@ body {
 .site-link {
     color: var(--title-text-color);
     text-decoration: none;
+    position: relative;
 }
 
 .site-link:hover {
@@ -752,7 +754,7 @@ body {
     background-color: var(--primery-background-color);
 }
 
-.site-link-one::after {
+.site-link.current::after {
     content: "";
     display: block;
     background-color: var(--background-button-color);
@@ -762,7 +764,11 @@ body {
     position: absolute;
     left: 0;
     bottom: -32px;
-    transition: var(--background-button-color) 5000ms;
+    transition: background-color 2000ms ease;
+}
+.site-link:hover.current::after{
+    background-color: var(--background-color-after);
+    transition: background-color 2000ms ease;
 }
 
 .block-wrap {
