@@ -1,0 +1,99 @@
+.header__wrapper {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid gray;
+}
+.logo {
+    color: $logo-color;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+}
+.blue {
+    color: $background-button-color;
+}
+.site__list {
+    color: $title-text-color;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    display: flex;
+
+}
+.site__li:not(:last-child) {
+    margin-right: 50px;
+}
+.site__list:hover {
+    color: $background-button-color;
+}
+.site__link {
+    color: $title-text-color;
+    text-decoration: none;
+    position: relative;
+}
+.site__link:hover {
+    color: $background-button-color;
+}
+.site__link__one {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    color: $background-button-color;
+    position: relative;
+}
+.contact__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.telephone,
+.site__number {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    display: flex;
+    align-items: center;
+}
+
+.icon__smartphone,
+.icon__email {
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+}
+
+.email:hover,
+.site-number:hover,
+.email:focus,
+.site__number:focus {
+    color: var(--background-button-color);
+}
+
+.email:hover .icon__email,
+.site__number:hover .icon-smartphone {
+    fill: var(--background-button-color);
+}
+.email {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-right: 50px;
+}
