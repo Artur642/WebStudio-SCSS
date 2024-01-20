@@ -1,5 +1,11 @@
+.team {
+    background-color: $background-team-color;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
 .team__block {
-    background-color: var(--second-text-color);
+    background-color: $second-text-color;
     width: 270px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
@@ -15,7 +21,7 @@
 }
 
 .team__name {
-    color: var(--title-text-color);
+    color: $title-text-color;
     text-align: center;
     font-family: 'Roboto';
     font-size: 16px;
@@ -26,7 +32,7 @@
     margin-bottom: 10px;
 }
 .position__team {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;
@@ -34,7 +40,7 @@
     margin-bottom: 16px;
 }
 .team__title {
-    color: var(--secondary-background-color);
+    color: $secondary-background-color;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
@@ -67,5 +73,12 @@
 .social__team__list__link:hover,
 .social__team__list__link:focus {
     background-color: #2196F3;
-    fill: var(--background-team-color);
+    fill: $background-team-color;
+}
+.team__title{
+    color: $secondary-background-color;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    text-align: center;
 }
