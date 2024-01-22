@@ -18,11 +18,35 @@
 </head>
 
 <body>
-  <!--Шапка сайта-->
-  <header class="header">
+  <!-- Шапка сайта-->
+  <!-- <header class="header">
     <div class="header__wrapper container">
         <a class="logo" href="./index.html">
             <span class="blue">Web</span>Studio</a>
+            <div class="menu__container js-menu-container">
+                   <button class="menu__button js-close-menu" type="button">
+                       <svg class="menu__button__close">
+                            <use class="menu__icon__cross"></use>
+                       </svg>
+                   </button>
+                   <div class="menu__box">
+                      <div class="mobile-menu">
+                        <nav>
+                          <ul class="mobile-menu__list">
+                            <li class="site__li">
+                              <a class="site__list__link current" href="./index.html">Студія</a>
+                          </li>
+                          <li class="site__li">
+                              <a class="site__list__link" href="./portfolio.html">Портфоліо</a>
+                          </li>
+                          <li class="site__li">
+                              <a class="site__list__link" href="#">Контакти</a>
+                          </li>
+                          </ul>
+                        </nav>
+                      </div>
+                   </div>
+            </div>
         <nav class="site__nav">
             <ul class="site__list">
                 <li class="site__li">
@@ -54,7 +78,7 @@
             </li>
         </ul>
     </div>
-</header>
+</header> -->
   <main class="main">
     <!--Заказ услуги-->
     <section class="post container">
@@ -398,7 +422,8 @@
       <button class="order__button">Підписатися</button>
     </div>
   </footer>
-  <script src="script.js"></script>
+  <script src="modal.js"></script>
+  <script src="mobile-menu.js"></script>
 </body>
 
 </html>

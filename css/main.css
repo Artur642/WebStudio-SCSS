@@ -139,20 +139,8 @@ img {
 }
 
 .benefits__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   margin-top: 94px;
   margin-bottom: 200px;
-}
-
-.benefits__block {
-  width: 270px;
-  height: 128px;
-  background-color: #f5f4fa;
 }
 
 .benefits__block:not(:last-child) {
@@ -771,8 +759,6 @@ img {
   background-color: #2f3034;
   padding-top: 118px;
   padding-bottom: 118px;
-  width: 1200px;
-  height: 600px;
   background-image: url(/img/Img.png);
   background-position: center;
   background-size: cover;
