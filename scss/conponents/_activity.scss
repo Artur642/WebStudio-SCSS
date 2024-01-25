@@ -1,55 +1,64 @@
-.activity{
-    padding-bottom: 94px;
-}
-.activity__list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.activity__block {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.activity__img {
-    width: 370px;
-}
-.laber__activity {
-    position: absolute;
-    text-transform: uppercase;
-    color: var($primery-background-color);
-    font-weight: 700;
-    letter-spacing: 0.42px;
-    bottom: 0px;
-    left: 0px;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    width: 100%;
-    background-color: rgba(47, 48, 58, 0.80);
-}
-.section__activity__title {
-    color: $secondary-background-color;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 1.08px;
-    text-align: center;
-}
-.section__activity__title {
-    text-align: center;
-    color: $title-text-color;
-    margin-bottom: 50px;
-}
-.laber__activity {
-    position: absolute;
-    text-transform: uppercase;
-    color: $primery-background-color;
-    font-weight: 700;
-    letter-spacing: 0.42px;
-    bottom: 0px;
-    left: 0px;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    width: 100%;
-    background-color: rgba(47, 48, 58, 0.80);
+.activity{ 
+    display: none; 
+} 
+ 
+ 
+@media screen and (min-width:1200px){ 
+.activity{ 
+    display: block; 
+    padding-bottom: 94px; 
+} 
+.activity__list { 
+    display: flex; 
+    justify-content: space-between; 
+} 
+ 
+.activity__block { 
+    position: relative; 
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+} 
+.activity__img { 
+    width: 370px; 
+} 
+.laber__activity { 
+    position: absolute; 
+    text-transform: uppercase; 
+    color: var($primery-background-color); 
+    font-weight: 700; 
+    letter-spacing: 0.42px; 
+    bottom: 0px; 
+    left: 0px; 
+    padding-top: 27px; 
+    padding-bottom: 27px; 
+    width: 100%; 
+    background-color: rgba(47, 48, 58, 0.80); 
+} 
+.section__activity__title { 
+    color: $secondary-background-color; 
+    font-size: 36px; 
+    font-weight: 700; 
+    letter-spacing: 1.08px; 
+    text-align: center; 
+} 
+.section__activity__title { 
+    text-align: center; 
+    color: $title-text-color; 
+    margin-bottom: 50px; 
+    font-family: 'Roboto'; 
+} 
+.laber__activity { 
+    position: absolute; 
+    text-transform: uppercase; 
+    color: $primery-background-color; 
+    font-weight: 700; 
+    letter-spacing: 0.42px; 
+    bottom: 0px; 
+    left: 0px; 
+    padding-top: 27px; 
+    padding-bottom: 27px; 
+    width: 100%; 
+    background-color: rgba(47, 48, 58, 0.80); 
+} 
 }

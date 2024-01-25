@@ -93,15 +93,16 @@
         justify-content: space-between; 
     } 
     .benefits__block{ 
-        max-width: 354px; 
-        min-width: 354px; 
+        max-width: 336px; 
+        min-width: 336px; 
         margin-bottom: 30px; 
+         
     } 
     .benefits__block:not(:last-child){ 
         margin-right: 0; 
     } 
 } 
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 1200px) { 
     .benefits__list{ 
         flex-wrap: nowrap; 
     } 
@@ -112,4 +113,4 @@
     .benefits__name{ 
         text-align: left; 
     } 
-}   
+}

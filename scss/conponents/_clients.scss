@@ -1,55 +1,59 @@
-.clients__list {
-    display: flex;
-    margin-left: -30px;
-}
-
-.clients__item {
-    margin-left: 30px;
-}
-
-.clients {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.clients__text {
-    text-align: center;
-    color: $title-text-color;
-    margin-bottom: 50px;
-    font-size: 36px;
-}
-
-.clients__link {
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: #AFB1B8;
-}
-
-.clients__icon {
-    width: 106px;
-    height: 60px;
-}
-
-.clients__link:hover,
-.clients__link:focus {
-    fill: #2196F3;
-    border-color: #2196F3;
-}
-@media screen and (min-width: 768px) {
-    .clients__link{
-        display: flex; 
-        flex-wrap: wrap-reverse; 
-        justify-content: space-between; 
-    }
-}
-@media screen and (max-width: 1200px) {
-    .clients{
-        padding-top: 94px;
-        padding-bottom: 94px;
-    }
+.clients__list { 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 30px; 
+} 
+ 
+.clients { 
+    margin-top: 60px; 
+    margin-bottom: 60px; 
+} 
+ 
+.clients__text { 
+    text-align: center; 
+    color: $title-text-color; 
+    margin-bottom: 50px; 
+    font-size: 36px; 
+} 
+ 
+.clients__link { 
+    max-width: 210px; 
+    min-width: 150px; 
+    height: 92px; 
+    border: 1px solid #AFB1B8; 
+    border-radius: 4px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    fill: #AFB1B8; 
+    flex-basis: calc((100% - 30px) / 2); 
+} 
+ 
+.clients__icon { 
+    width: 106px; 
+    height: 60px; 
+} 
+ 
+.clients__link:hover, 
+.clients__link:focus { 
+    fill: #2196F3; 
+    border-color: #2196F3; 
+} 
+@media screen and (min-width: 768px) { 
+    .clients__link { 
+    max-width: 226px; 
+    min-width: 226px; 
+    flex-basis: calc((100% - 60px) / 3); 
+} 
+} 
+@media screen and (min-width: 1200px) { 
+    .clients{ 
+        padding-top: 94px; 
+        padding-bottom: 94px; 
+    } 
+     .clients__link { 
+    max-width: 170px; 
+    min-width: 170px; 
+} 
 }
