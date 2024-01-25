@@ -13,12 +13,6 @@
 
 }
 
-.team__list {
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-
 .team__block:not(:last-child) {
     margin-right: 30px;
 }
@@ -91,19 +85,22 @@
     letter-spacing: 1.08px;
     text-align: center;
 }
+
 @media screen and (min-width: 768px) {
-    .team__list{
-        display: flex; 
-        flex-wrap: wrap; 
-        justify-content: space-between; 
+    .team__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
+
 @media screen and (max-width: 1200px) {
-    .team{
+    .team {
         padding-top: 94px;
         padding-bottom: 94px;
     }
-    .team__list{
+
+    .team__list {
         display: flex;
     }
 }
