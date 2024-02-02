@@ -108,3 +108,9 @@
     display: flex;
     justify-content: center;
 }
+.modal__form__input::before{
+    background-image: url(/img/person-black-18dp.png);
+    background-color: $title-text-color;
+    background-repeat: no-repeat;
+    background-size: 18px;
+}
