@@ -811,8 +811,8 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  min-width: 528px;
-  min-height: 581px;
+  width: 528px;
+  height: 581px;
   background-color: #fff;
   border-radius: 4px;
   -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -936,7 +936,7 @@ body {
 }
 
 .modal__form__input::before {
-  background-image: url(/img/person-black-18dp.png);
+  background-image: url(/img/Vector-modal.png);
   background-color: #212121;
   background-repeat: no-repeat;
   background-size: 18px;
