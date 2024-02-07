@@ -170,7 +170,7 @@ body {
   width: 100%;
   height: 120px;
   background-color: #f5f4fa;
-  background-image: url(/img/antenna1.png);
+  background-image: url(/img/benefits/antenna1.png);
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: center;
@@ -183,7 +183,7 @@ body {
   width: 100%;
   height: 120px;
   background-color: #f5f4fa;
-  background-image: url(/img/clock1.png);
+  background-image: url(/img/benefits/clock1.png);
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: center;
@@ -195,7 +195,7 @@ body {
   width: 100%;
   height: 120px;
   background-color: #f5f4fa;
-  background-image: url(/img/diagram1.png);
+  background-image: url(/img/benefits/diagram1.png);
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: center;
@@ -207,7 +207,7 @@ body {
   width: 100%;
   height: 120px;
   background-color: #f5f4fa;
-  background-image: url(/img/astronaut1.png);
+  background-image: url(/img/benefits/astronaut1.png);
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: center;
