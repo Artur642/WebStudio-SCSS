@@ -1,76 +1,67 @@
-.order { 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
-    margin-top: 60px; 
-} 
-form{ 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-} 
-.order__big { 
-    max-width: 450px; 
-    min-width: 290px; 
-    height: 50px; 
-    flex-shrink: 0; 
-    border-radius: 4px; 
-    border: 1px solid rgba(255, 255, 255, 0.30); 
-    background: rgba(33, 150, 243, 0.00); 
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
-} 
+.order {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    flex-direction: column;  
+    margin-top: 60px;  
+}  
  
-.order__text { 
-    color: $primery-background-color; 
-    font-family: 'Roboto'; 
-    font-size: 14px; 
-    font-style: normal; 
-    font-weight: 700; 
-    line-height: normal; 
-    letter-spacing: 0.42px; 
-    text-transform: uppercase; 
-    margin-bottom: 20px; 
-} 
- 
-.order__button { 
-    width: 200px; 
-    height: 50px; 
-    cursor: pointer; 
-    flex-shrink: 0; 
-    border-radius: 4px; 
-    background: $background-button-color; 
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
-    margin-top: 20px; 
-} 
- 
-.order__button:hover { 
-    background-color: $primery-background-color; 
-} 
- 
-@media screen and (min-width:768px){ 
-.order__big { 
-    max-width: 450px; 
-    min-width: 450px; 
-} 
-} 
-@media screen and (min-width:1200px){ 
-.order__big { 
-    max-width: 358px; 
-    min-width: 358px; 
-} 
-form{ 
-    display: flex; 
-    flex-direction: row; 
-    align-items: center; 
-} 
-.order__button { 
-    margin-top: 0px; 
-    margin-left: 10px; 
-} 
-.order { 
-    display: flex; 
-    align-items: flex-start; 
-    margin-top: 0; 
-} 
+.order__big {  
+    max-width: 450px;  
+    min-width: 290px;  
+    height: 50px;  
+    flex-shrink: 0;  
+    border-radius: 4px;  
+    border: 1px solid rgba(255, 255, 255, 0.30);  
+    background: rgba(33, 150, 243, 0.00);  
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);  
+}  
+  
+.order__text {  
+    color: $primery-background-color;  
+    font-family: 'Roboto';  
+    font-size: 14px;  
+    font-style: normal;  
+    font-weight: 700;  
+    line-height: normal;  
+    letter-spacing: 0.42px;  
+    text-transform: uppercase;  
+    margin-bottom: 20px;  
+}  
+  
+.order__button {  
+    width: 200px;  
+    height: 50px;  
+    cursor: pointer;  
+    flex-shrink: 0;  
+    border-radius: 4px;  
+    background: $background-button-color;  
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);  
+    margin-top: 20px;  
+}  
+  
+.order__button:hover {  
+    background-color: $primery-background-color;  
+}  
+  
+@media screen and (min-width:768px){  
+.order__big {  
+    max-width: 450px;  
+    min-width: 450px;  
+}  
+}  
+@media screen and (min-width:1200px){  
+.order__big {  
+    max-width: 358px;  
+    min-width: 358px;  
+}  
+.order__button {  
+    margin-top: 0px;  
+    margin-left: 10px;  
+}  
+.order {  
+    display: flex;  
+    align-items: flex-start;  
+    margin-top: 0;  
+}  
 }
